@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp23
+﻿using System.Collections;
+
+namespace ConsoleApp23
 {
     internal class Program
     {
@@ -62,38 +64,66 @@
             #endregion
             #region question 4
             // 1
-           //var emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
-           //
-           //// 2
-           //mails.Add("ahmed@test.com");  
-           //mails.Add("AHMED@test.com");  
-           //mails.Add("sara@test.com");   
-           //mails.Add("Sara@Test.Com");   
-           //
-           //// 3
-           //Console.WriteLine( emails.Count);
-           //Console.WriteLine(string.Join(", ", emails));
-           //
-           //// 4
-           //var setA = new HashSet<int> { 1, 2, 3, 4, 5 };
-           //var setB = new HashSet<int> { 4, 5, 6, 7, 8 };
-           //
-           //// 5
-           //var union = new HashSet<int>(setA);
-           //union.UnionWith(setB);
-           //Console.WriteLine($"\nUnion:     {string.Join(", ", union)}");
-           //
-           //var intersect = new HashSet<int>(setA);
-           //intersect.IntersectWith(setB);
-           //Console.WriteLine($"Intersect: {string.Join(", ", intersect)}");
-           //
-           //var except = new HashSet<int>(setA);
-           //except.ExceptWith(setB);
-           //Console.WriteLine($"Except:    {string.Join(", ", except)}");
-           //
-           //// 6
-           //var small = new HashSet<int> { 1, 2 };
-           //Console.WriteLine($" {small.IsSubsetOf(setA)}");
+            //var emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+            //
+            //// 2
+            //mails.Add("ahmed@test.com");  
+            //mails.Add("AHMED@test.com");  
+            //mails.Add("sara@test.com");   
+            //mails.Add("Sara@Test.Com");   
+            //
+            //// 3
+            //Console.WriteLine( emails.Count);
+            //Console.WriteLine(string.Join(", ", emails));
+            //
+            //// 4
+            //var setA = new HashSet<int> { 1, 2, 3, 4, 5 };
+            //var setB = new HashSet<int> { 4, 5, 6, 7, 8 };
+            //
+            //// 5
+            //var union = new HashSet<int>(setA);
+            //union.UnionWith(setB);
+            //Console.WriteLine($"\nUnion:     {string.Join(", ", union)}");
+            //
+            //var intersect = new HashSet<int>(setA);
+            //intersect.IntersectWith(setB);
+            //Console.WriteLine($"Intersect: {string.Join(", ", intersect)}");
+            //
+            //var except = new HashSet<int>(setA);
+            //except.ExceptWith(setB);
+            //Console.WriteLine($"Except:    {string.Join(", ", except)}");
+            //
+            //// 6
+            //var small = new HashSet<int> { 1, 2 };
+            //Console.WriteLine($" {small.IsSubsetOf(setA)}");
+            #endregion
+            #region question 5
+            
+           // Queue<string> q1 = new Queue<string>();
+           // q1.Enqueue("Report.pdf");
+           // q1.Enqueue("Invoice.pdf");
+           // q1.Enqueue("Letter.docx");
+           // q1.Enqueue("Resume.pdf");
+           // //1
+           // Console.WriteLine(q1.Count);
+           // foreach (var item in q1)
+           // {
+           //     Console.WriteLine(item);
+           // }
+           // //2
+           // Console.WriteLine(q1.Peek());
+           // //3 
+           // for (;  q1.Count>0; )
+           // {
+           //     Console.WriteLine($"printing:{q1.Dequeue()}");
+           // }
+           // //4
+           // bool now_empty_queue = q1.TryDequeue(out string result);
+           // Console.WriteLine(result);
+           // Console.WriteLine(now_empty_queue);
+
+
+
             #endregion
 
         }
