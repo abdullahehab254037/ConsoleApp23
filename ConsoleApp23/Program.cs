@@ -36,29 +36,64 @@
 
             #endregion
             #region question3
-         // //1
-         // Dictionary<string, int> phonebook = new Dictionary<string, int>();
-         // //2
-         // phonebook.Add("ahmed", 010);
-         // phonebook.Add("ali", 011);
-         // phonebook.Add("abdo", 012);
-         // phonebook.Add("bido", 015);
-         // //3
-         // try
-         // {
-         //     phonebook.Add("ahmed", 010);
-         // }
-         // catch (ArgumentException ex)
-         // {
-         //     Console.WriteLine($"Error: {ex.Message}");
-         // }
-         // //4
-         // Console.WriteLine( phonebook.TryAdd("ahmed", 010));
-         // //5
-         // phonebook.TryGetValue("hassan", out int n);
-         // //6
-         // Console.WriteLine(phonebook.Keys);
-         // Console.WriteLine(phonebook.Values);
+            // //1
+            // Dictionary<string, int> phonebook = new Dictionary<string, int>();
+            // //2
+            // phonebook.Add("ahmed", 010);
+            // phonebook.Add("ali", 011);
+            // phonebook.Add("abdo", 012);
+            // phonebook.Add("bido", 015);
+            // //3
+            // try
+            // {
+            //     phonebook.Add("ahmed", 010);
+            // }
+            // catch (ArgumentException ex)
+            // {
+            //     Console.WriteLine($"Error: {ex.Message}");
+            // }
+            // //4
+            // Console.WriteLine( phonebook.TryAdd("ahmed", 010));
+            // //5
+            // phonebook.TryGetValue("hassan", out int n);
+            // //6
+            // Console.WriteLine(phonebook.Keys);
+            // Console.WriteLine(phonebook.Values);
+            #endregion
+            #region question 4
+            // 1
+           //var emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+           //
+           //// 2
+           //mails.Add("ahmed@test.com");  
+           //mails.Add("AHMED@test.com");  
+           //mails.Add("sara@test.com");   
+           //mails.Add("Sara@Test.Com");   
+           //
+           //// 3
+           //Console.WriteLine( emails.Count);
+           //Console.WriteLine(string.Join(", ", emails));
+           //
+           //// 4
+           //var setA = new HashSet<int> { 1, 2, 3, 4, 5 };
+           //var setB = new HashSet<int> { 4, 5, 6, 7, 8 };
+           //
+           //// 5
+           //var union = new HashSet<int>(setA);
+           //union.UnionWith(setB);
+           //Console.WriteLine($"\nUnion:     {string.Join(", ", union)}");
+           //
+           //var intersect = new HashSet<int>(setA);
+           //intersect.IntersectWith(setB);
+           //Console.WriteLine($"Intersect: {string.Join(", ", intersect)}");
+           //
+           //var except = new HashSet<int>(setA);
+           //except.ExceptWith(setB);
+           //Console.WriteLine($"Except:    {string.Join(", ", except)}");
+           //
+           //// 6
+           //var small = new HashSet<int> { 1, 2 };
+           //Console.WriteLine($" {small.IsSubsetOf(setA)}");
             #endregion
 
         }
