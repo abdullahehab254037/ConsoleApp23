@@ -98,32 +98,66 @@ namespace ConsoleApp23
             //Console.WriteLine($" {small.IsSubsetOf(setA)}");
             #endregion
             #region question 5
-            
-           // Queue<string> q1 = new Queue<string>();
-           // q1.Enqueue("Report.pdf");
-           // q1.Enqueue("Invoice.pdf");
-           // q1.Enqueue("Letter.docx");
-           // q1.Enqueue("Resume.pdf");
-           // //1
-           // Console.WriteLine(q1.Count);
-           // foreach (var item in q1)
-           // {
-           //     Console.WriteLine(item);
-           // }
-           // //2
-           // Console.WriteLine(q1.Peek());
-           // //3 
-           // for (;  q1.Count>0; )
-           // {
-           //     Console.WriteLine($"printing:{q1.Dequeue()}");
-           // }
-           // //4
-           // bool now_empty_queue = q1.TryDequeue(out string result);
-           // Console.WriteLine(result);
-           // Console.WriteLine(now_empty_queue);
+
+            // Queue<string> q1 = new Queue<string>();
+            // q1.Enqueue("Report.pdf");
+            // q1.Enqueue("Invoice.pdf");
+            // q1.Enqueue("Letter.docx");
+            // q1.Enqueue("Resume.pdf");
+            // //1
+            // Console.WriteLine(q1.Count);
+            // foreach (var item in q1)
+            // {
+            //     Console.WriteLine(item);
+            // }
+            // //2
+            // Console.WriteLine(q1.Peek());
+            // //3 
+            // for (;  q1.Count>0; )
+            // {
+            //     Console.WriteLine($"printing:{q1.Dequeue()}");
+            // }
+            // //4
+            // bool now_empty_queue = q1.TryDequeue(out string result);
+            // Console.WriteLine(result);
+            // Console.WriteLine(now_empty_queue);
 
 
 
+            #endregion
+            #region question6
+          // Stack<string> history = new Stack<string>();
+          //
+          // // 1. 
+          // history.Push("google.com");
+          // history.Push("github.com");
+          // history.Push("stackoverflow.com");
+          // history.Push("youtube.com");
+          // history.Push("claude.ai");
+          //
+          // // 2. 
+          // Console.WriteLine($"Current page: {history.Peek()}");
+          //
+          // // 3
+          //
+          // for (int i = 1; i <= 3; i++)
+          // {
+          //     string left = history.Pop();
+          //     Console.WriteLine($"Back:{i}: leaving {left}");
+          // }
+          //
+          // // 4
+          // Console.WriteLine($"Current page: {history.Peek()}");
+          // Console.WriteLine($"Pages left in history: {history.Count}");
+          //
+          // // 5
+          //
+          // while (history.Count > 0)
+          //     Console.WriteLine($"Emptying: {history.Pop()}");
+          //
+          // bool success = history.TryPop(out string page);
+          // Console.WriteLine( success);
+          // Console.WriteLine(page );
             #endregion
 
         }
